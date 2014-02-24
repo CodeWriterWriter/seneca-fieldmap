@@ -1,0 +1,34 @@
+{
+  "name": "seneca-fieldmap",
+  "version": "0.1.0",
+  "description": "Seneca fieldmap plugin",
+  "main": "fieldmap.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rjrodger/seneca-fieldmap.git"
+  },
+  "keywords": [
+    "seneca",
+    "account",
+    "management",
+    "plugin"
+  ],
+  "author": "Richard Rodger (http://richardrodger.com)",
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "seneca": "*"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "seneca": "~0.5.15"
+  },
+  "files": [
+    "README.md",
+    "LICENSE.txt",
+    "fieldmap.js"
+  ]
+}
